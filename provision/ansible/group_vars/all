@@ -1,0 +1,8 @@
+---
+aws_cli_version: "1.16.*"
+aws_profile: "jean"
+
+docker_version: "18.*"
+docker_compose_version: "1.23.*"
+docker_users:
+  - "vagrant"

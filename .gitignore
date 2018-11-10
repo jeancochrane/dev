@@ -1,0 +1,6 @@
+# Vagrant
+.vagrant
+
+# Ansible
+provision/ansible/roles/azavea.*
+*.retry

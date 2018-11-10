@@ -1,0 +1,6 @@
+---
+- name: Install dotfiles
+  command: git clone --recursive git@github.com:jeancochrane/.vim.git $HOME/.vim
+
+- name: Link and update dotfiles
+  command: ln -sf $HOME/.vim/vimrc $HOME/.vimrc && (cd $HOME/.vim && git submodule update --init)
